@@ -1,0 +1,41 @@
+# IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.swp
+*.swo
+
+# Build
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.exe~
+*.a
+*.lib
+*.o
+*.obj
+go.work
+debug
+.env
+.env.local
+.env*.local
+
+# Test
+coverage.txt
+coverage.html
+profile.out
+*.log
+*.debug
+*.db
+*.db-journal
+
+# Cache
+/.go/
+/*.cgo1.go
+/*.cgo2.c
+
+# OS
+.DS_Store
+Thumbs.db
